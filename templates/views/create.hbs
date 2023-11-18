@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {{>header}}
+
+    <div>
+        <h3>Submit to see images</h3>
+    </div>
+
+    <div class="flex-container-3">
+        <form action="">
+            <label for="in1">panel-1 description</label>
+            <input type="text" id="in1" placeholder="comic-1 desc" required>
+            <label for="in2">panel-2 description</label>
+            <input type="text" id="in2" placeholder="comic-2 desc" required>
+            <label for="in3">panel-3 description</label>
+            <input type="text" id="in3" placeholder="comic-3 desc" required>
+            <label for="in4">panel-4 description</label>
+            <input type="text" id="in4" placeholder="comic-4 desc" required>
+            <label for="in5">panel-5 description</label>
+            <input type="text" id="in5" placeholder="comic-5 desc" required>
+            <label for="in6">panel-6 description</label>
+            <input type="text" id="in6" placeholder="comic-6 desc" required>
+            <label for="in7">panel-7 description</label>
+            <input type="text" id="in7" placeholder="comic-7 desc" required>
+            <label for="in8">panel-8 description</label>
+            <input type="text" id="in8" placeholder="comic-8 desc" required>
+            <label for="in9">panel-9 description</label>
+            <input type="text" id="in9" placeholder="comic-9 desc" required>
+            <label for="in10">panel-10 description</label>
+            <input type="text" id="in10" placeholder="comic-10 desc" >
+             <input type="submit" id="submit" value="Submit">
+        </form>
+
+        {{!-- <div class="flex-contaier-4">
+            <div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+            </div>
+            <div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+                <div class="panel">
+                    <img src="/img/test.png" class="myImage1" alt="">
+                    <p class="text top-left">Suddenly...</p>
+                    <p class="text bottom-right">...something amazing happened</p>
+                </div>
+            </div>
+        </div> --}}
+
+        <article class="comic">
+            <div class="panel">
+                <img src="/img/test.png" class="images myImage1" alt="">                
+                <p class="text top-left">Suddenly...</p>
+                <p class="text bottom-right">...something amazing happened</p>
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage2" alt="">
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage3" alt="">
+                <p class="text speech">put text here</p>
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage4" alt="">
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage5" alt="">
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage6" alt="">
+                <p class="text speech">put text here</p>
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage7" alt="">
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage8" alt="">
+                <p class="text bottom-right">...it's responsive</p>
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage9" alt="">
+            </div>
+            <div class="panel">
+                <div class="loader"></div>
+                <img src="/img/test.png" class="images myImage10" alt="">
+                <p class="text bottom-right">THE END</p>
+            </div>
+        </article>
+
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>

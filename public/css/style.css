@@ -1,0 +1,252 @@
+body {
+    background-color: rgb(37, 13, 13); 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 95%;
+    padding:0 16px;
+}
+
+.about-1,.about-2{
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+
+.logo-image{
+    width: 70px;
+    height: 70px;
+    margin: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+form{
+    display: flex;
+    color: #000;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], select {
+    padding: 5px 10px;
+    margin: 2px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit].submitted {
+    background-color: white;
+}
+
+input[type=submit]{
+    margin-top: 5px;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > p {
+    margin-right: 60px;
+    text-align: right;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 70%;
+}
+
+.flex-container > div {
+    margin: 5px;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flex-container-2{
+    display: flex;
+    width: 80%;
+}
+
+.flex-container-3{
+    display: flex;
+    flex-flow: row;
+    height: 70%;
+}
+
+.create{
+    font-size: 30px;
+    margin-left: 100px;
+    background-color: rgb(206, 221, 234);
+    color: black;
+}
+
+.title,.demo{
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 60px;
+}
+
+.demo{
+    width: 720px;
+    height: 320px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+
+
+.comic {
+    display:flex;
+    flex-wrap:wrap;
+    height: 60%;
+    margin: 0px 0px;
+    height: 70%;
+    padding: 0px 0px;
+    font-family:'Comic Sans', cursive;
+    padding:1vmin;
+}
+  
+.panel {
+    background-color:#fff;
+    border:solid 2px #000;
+    box-shadow:0 6px 6px -6px #000;
+    display:inline-block;
+    flex:1 1;
+    height: 250px;
+    margin:0.1vmin 0px;
+    overflow:hidden;
+    position:relative;
+    align-content: flex-start
+}
+  
+.text {
+    border:solid 2px #000;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    margin:0;
+    padding:3px 10px;
+}
+  
+.top-left {
+    left:-6px;
+    position:absolute;
+    top:-2px;
+    transform:skew(-15deg);
+}
+
+.bottom-right {
+    bottom:-2px;
+    position:absolute;
+    right:-6px;
+    transform:skew(-15deg);
+}
+
+.speech {
+    background-color:#fff;
+    border:solid 2px #000;
+    top:15px;
+    border-radius:12px;
+    margin:.5em;
+    padding:.5em 1em;
+    position:absolute;
+}
+
+.speech:before {
+    border:solid 12px transparent;
+    border-left:solid 12px #000;
+    border-top:solid 12px #000;
+    bottom:-24px;
+    content:"";
+    height:0;
+    left:24px;
+    position:absolute;
+    transform:skew(-15deg);
+    width:0;
+}
+
+.speech:after {
+    border:solid 10px transparent;
+    border-left:solid 10px #fff;
+    border-top:solid 10px #fff;
+    bottom:-19px;
+    content:"";
+    height:0;
+    left:27px;
+    position:absolute;
+    transform:skew(-15deg);
+    width:0;
+}
+
+.images{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.panel:nth-child(1) {
+    flex-basis: 250px;
+}
+.panel:nth-child(2) {
+    flex-basis: 200px;
+}
+.panel:nth-child(3) {
+    flex-basis: 200px;
+}
+.panel:nth-child(4) {
+    flex-basis: 250px;
+}
+.panel:nth-child(5) {
+    flex-basis: 200px;
+}
+.panel:nth-child(6) {
+    flex-basis: 150px;
+}
+.panel:nth-child(7) {
+    flex-basis: 100px;
+}
+.panel:nth-child(8) {
+    flex-basis: 200px;
+}
+.panel:nth-child(9) {
+    flex-basis: 250px;
+}
+.panel:nth-child(10) {
+    flex-basis: 200px;
+}
+  
+.panel:nth-child(4n+1) {
+    background-image:radial-gradient(circle, yellow, orange);
+}
+
+.panel:nth-child(4n+2) {
+    background-image:radial-gradient(circle, lightblue, deepskyblue);
+}
+
+.panel:nth-child(4n+3) {
+    background-image:radial-gradient(circle, palegreen, yellowgreen);
+}
+
+.panel:nth-child(4n+4) {
+    background-image:radial-gradient(circle, lightcoral, tomato);
+}  
