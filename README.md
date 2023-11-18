@@ -20,6 +20,8 @@ Images :
 
 ![image](https://github.com/pruthvirajgn7/Comic-creator-app/assets/97229702/1faa8a0c-d236-45c8-82b4-6571b090e623)
 
+![image](https://github.com/pruthvirajgn7/Comic-creator-app/assets/97229702/7a80bf2e-31d9-4099-a753-64c49e6849dd)
+
 ![image](https://github.com/pruthvirajgn7/Comic-creator-app/assets/97229702/d6e397f7-a966-4c54-bd4e-eb643a65c7ea)
 
 ![image](https://github.com/pruthvirajgn7/Comic-creator-app/assets/97229702/2e8d54b7-fd24-4988-95f1-cf8decb02341)
