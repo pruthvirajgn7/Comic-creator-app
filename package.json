@@ -2,9 +2,9 @@
   "name": "comic-creator-web-app",
   "version": "1.0.0",
   "description": "Product engineer project by Dashtoon",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node src/app.js"
   },
   "author": "pruthvi",
   "license": "ISC",
